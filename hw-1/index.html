@@ -1,12 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mini-Game</title>
-</head>
-<body>
-    <header></header>
-    <h1>Привет</h1>
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top center">
+      <header></header>
+      <section>
+        <h1 class="top__title">Добро пожаловать на мой сайт мини-игр</h1>
+        <p class="top__text">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимайV <span class="top__text-semibold">«Поехали!»</span> и <span class="top__text-semibold">приступай</span>.
+        </p>
+        <button class="top__button">Поехали!</button>
+      </section>
+      <div class="animated-line"></div>
+    </div>
+    <section class="product-box center">
+      <h2 class="product-box__title">Об играх</h2>
+      <p class="product-box__text">В моей коллекции представлено 6 игр на разные темы. Игры несложные — в них может поиграть каждый. Все игры доступны для пользования.</p>
+      <div class="product-box__content">
+        <a class="product-link" href="">
+          <article class="product">
+          <img class="product__image" src="images/cart-1.jpg" alt="Угадай число"/>
+          <div class="product__info">
+            <div class="product__text-box">
+              <p class="product__text">Игра №1</p>
+            </div>
+            <h3 class="product__name">Угадай число</h3>
+          </div>
+        </article>
+      </a>
+      <a class="product-link product-link_big" href="">
+        <article class="product product-big">
+          <img class="product__image" src="images/cart-2.jpg" alt="Простая арифметика"/>
+          <div class="product__info">
+            <div class="product__text-box">
+              <p class="product__text">Игра №2</p>
+            </div>
+            <h3 class="product__name">Простая арифметика</h3>
+          </div>
+        </article>
+      </a>
+      <a class="product-link" href="">
+        <article class="product">
+          <img class="product__image" src="images/cart-3.jpg" alt="Переверни текст"/>
+          <div class="product__info">
+            <div class="product__text-box">
+              <p class="product__text">Игра №3</p>
+            </div>
+            <h3 class="product__name">Переверни текст</h3>
+          </div>
+        </article>
+      </a>
+      <a class="product-link product-link_2row" href="">
+        <article class="product product-big_2row">
+          <img class="product__image" src="images/cart-4.jpg" alt="Камень, ножницы, бумага"/>
+          <div class="product__info">
+            <div class="product__text-box">
+              <p class="product__text">Игра №4</p>
+            </div>
+            <h3 class="product__name">Камень, ножницы, бумага</h3>
+          </div>
+        </article>
+      </a>
+      <a class="product-link product-link_big" href="">
+        <article class="product product-big">
+          <img class="product__image" src="images/cart-5.jpg" alt="Простая викторина"/>
+          <div class="product__info">
+            <div class="product__text-box">
+              <p class="product__text">Игра №5</p>
+            </div>
+            <h3 class="product__name">Простая викторина</h3>
+          </div>
+        </article>
+      </a>
+      <a class="product-link product-link_2row" href="">
+        <article class="product product-big_2row">
+          <img class="product__image" src="images/cart-6.jpg" alt="Генератор случайных цветов"/>
+          <div class="product__info">
+            <div class="product__text-box">
+              <p class="product__text">Игра №6</p>
+            </div>
+            <h3 class="product__name">Генератор случайных цветов</h3>
+          </div>
+        </article>
+      </a>
+      </div>
+    </section>
+  </body>
 </html>
