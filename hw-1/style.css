@@ -209,3 +209,110 @@ height: 512px;
 
 
 
+
+
+/* ЭТОТ КОД НИЖЕ МНЕ СДЕЛАЛ ии НО ДАЖЕ ОН НЕ РАБОТАЕТ  */
+
+
+
+/* .product-box__content { 
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);   
+  grid-template-rows: auto auto; 
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ 2. Базовые стили для всех ссылок 
+.product-link { 
+  display: block;
+  text-decoration: none;
+  grid-column: span 4;
+}
+
+ 3. Базовые стили для самой карточки 
+.product { 
+  border-radius: 30px;
+  box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+  background: #ffffff;   
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+ --- ВЫРАВНИВАНИЕ И ВЫСОТА ДЛЯ КАЖДОГО РЯДА --- 
+
+ Карточки 1 и 3 (Игра 1 и Игра 3) 
+.product-box__content .product-link:nth-child(1) .product,
+.product-box__content .product-link:nth-child(3) .product {
+  height: 473px;
+}
+
+ Карточка 2 (Игра 2) 
+.product-box__content .product-link:nth-child(2) .product {
+  height: 512px;
+}
+
+ Карточка 4 и 6 (Игра 4 и Игра 6) 
+.product-box__content .product-link:nth-child(4) .product,
+.product-box__content .product-link:nth-child(6) .product {
+  height: 551px;
+}
+
+ Карточка 5 (Игра 5)
+   Она имеет высоту 512px. Чтобы прижать её к нижней линии ряда 
+   (где высота соседей 551px), мы сдвигаем её вниз ровно на разницу: 
+   551px - 512px = 39px 
+.product-box__content .product-link:nth-child(5) .product {
+  height: 512px;
+  margin-top: 39px; 
+}
+
+ --- ВНУТРЕННИЕ ЭЛЕМЕНТЫ КАРТОЧКИ (строго вне вложенности) --- 
+.product__image { 
+  width: 100%;
+  height: 314px;
+  border-radius: 30px 30px 0 0;
+  object-fit: cover;
+}
+
+.product__info {  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 32px;
+}
+
+.product__text-box {  
+  width: 108px;
+  height: 36px;
+  border-radius: 52.58px;
+  background: #f7f7f7;
+}
+
+.product__text {  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 16px 10px 16px;
+  margin: 0;
+}
+
+.product__name {  
+  color: #202027;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+} */
+
+
+
+
