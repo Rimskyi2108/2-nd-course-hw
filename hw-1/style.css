@@ -1,12 +1,12 @@
-
- * {                                        
+* {
   margin: 0;
   padding: 0;
 }
 
- html, body {
-   overflow-x: hidden;  
-}    
+html,
+body {
+  overflow-x: hidden;
+}
 
 body,
 input,
@@ -22,66 +22,66 @@ select {
   padding-right: calc(50% - 600px);
 }
 
-.star-1 {  
-position: absolute;
-top: 11.75%;
-left: 4.375%;
+.star-1 {
+  position: absolute;
+  top: 11.75%;
+  left: 4.375%;
 }
 
-.star-2 {  
-position: absolute;
-top: 8.625%;
-left: 10.83%;
+.star-2 {
+  position: absolute;
+  top: 8.625%;
+  left: 10.83%;
 }
 
-.star-3 {  
-position: absolute;
-top: 67.25%;
-left: 65.83%;
+.star-3 {
+  position: absolute;
+  top: 67.25%;
+  left: 65.83%;
 }
 
-.star-4 {  
-position: absolute;
-top: 71%;
-left: 70.35%;
+.star-4 {
+  position: absolute;
+  top: 71%;
+  left: 70.35%;
 }
 
-.star-5 {  
-position: absolute;
-top: -32%;
-left: 71.5%;
+.star-5 {
+  position: absolute;
+  top: -32%;
+  left: 71.5%;
 }
 
-.line-1 { 
-position: absolute;
-top: -1.25%;
-left: 59.3%;
+.line-1 {
+  position: absolute;
+  top: -1.25%;
+  left: 59.3%;
 }
 
-.line-2 { 
-position: absolute;
-top: 31.75%;
-left: 74.1%;
+.line-2 {
+  position: absolute;
+  top: 31.75%;
+  left: 74.1%;
 }
 
-.line-3 { 
-position: absolute;
-top: 47.4%;
-left: 85.1%;
-overflow: visible;
+.line-3 {
+  position: absolute;
+  top: 47.4%;
+  left: 85.1%;
+  overflow: visible;
 }
 
-.line-4 { 
-position: absolute;
-top: 82.9%;
-left: 93.4%;
+.line-4 {
+  position: absolute;
+  top: 82.9%;
+  left: 93.4%;
 }
 
-.figure { 
-position: absolute;
-top: 58.5%;
-left: 86.6%;
-} 
+.figure {
+  position: absolute;
+  top: 58.5%;
+  left: 86.6%;
+}
 
 .top {
   background-image: url(images/top.jpg);
@@ -90,433 +90,368 @@ left: 86.6%;
   background-position: center;
   height: 800px;
   position: relative;
-  overflow: visible;    
+  overflow: visible;
 
-.top__title {                              
-color: rgba(32, 32, 39, 1);
-font-family: "Montserrat";
-font-size: 64px;
-font-weight: 700;
-line-height: 78px;
-letter-spacing: 0px;
-text-align: left;
-max-width: 769px;
-padding-top: 196px;
-padding-bottom: 24px;
+  .top__title {
+    color: rgba(32, 32, 39, 1);
+    font-family: "Montserrat";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 769px;
+    padding-top: 196px;
+    padding-bottom: 24px;
+  }
+
+  .top__text {
+    color: rgba(32, 32, 39, 1);
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 769px;
+  }
+
+  .top__text-semibold {
+    font-weight: 600;
+  }
+
+  .top__button {
+    box-sizing: border-box;
+    border: 1px solid rgba(32, 32, 39, 1);
+    border-radius: 60px;
+    background: rgba(32, 32, 39, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 247px;
+    height: 66px;
+    margin-top: 48px;
+    margin-bottom: 156px;
+  }
+
+  .top__button:hover {
+    border: 1px solid rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 1);
+    color: rgba(32, 32, 39, 1);
+  }
 }
 
-.top__text {  
-color: rgba(32, 32, 39, 1);
-font-family: "Montserrat";
-font-size: 24px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0px;
-text-align: left;
-max-width: 769px;
-}
-
-.top__text-semibold { 
-  font-weight: 600;
-
-}
-
-.top__button {  
-box-sizing: border-box;
-border: 1px solid rgba(32, 32, 39, 1);
-border-radius: 60px;
-background: rgba(32, 32, 39, 1);
-color: rgba(255, 255, 255, 1);
-font-family: "Montserrat";
-font-size: 24px;
-font-weight: 600;
-line-height: 34px;
-letter-spacing: 0%;
-text-align: center;
-width: 247px;
-height: 66px;
-margin-top: 48px;
-margin-bottom: 156px;
-}
-
-.top__button:hover {  
-  border: 1px solid rgba(0, 0, 0, 1);
-  background: rgba(255, 255, 255, 1);
-  color: rgba(32, 32, 39, 1);
-}
-}
-
-  .animated-line {
+.animated-line {
   background-color: rgba(188, 236, 48, 1);
   width: 100%;
   height: 90px;
   overflow: hidden;
   white-space: nowrap;
-  z-index: 1; 
+  z-index: 1;
 
   .animated-line__content {
-  display: inline-flex;
-  align-items: center;
-  gap: 51px;
-  height: 100%;
-  padding: 27px 49px;
-  box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 51px;
+    height: 100%;
+    padding: 27px 19px;
+    box-sizing: border-box;
+  }
+
+  .animated-line__text {
+    display: inline-flex;
+    align-items: center;
+    gap: 51px;
+    color: rgba(32, 32, 39, 1);
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+  }
+
+  .animated-line__text::after {
+    content: url(images/animated-line-star.png);
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+  }
 }
 
-.animated-line__text {
-  display: inline-flex;
-  align-items: center;
-  gap: 51px;
-  color: rgba(32, 32, 39, 1);
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 110%;
-  letter-spacing: 4%;
-  text-transform: uppercase;
+.star-6 {
+  position: absolute;
+  top: 8%;
+  left: 68%;
+  overflow: visible;
 }
 
-.animated-line__text::after {
-  content: url(images/animated-line-star.png);
-  display: inline-flex;
-  align-items: center;
-  line-height: 1;
-}
+.star-7 {
+  position: absolute;
+  top: 52.4%;
+  left: 1.7%;
 }
 
- 
-
-.star-6 { 
-position: absolute;
-top: 8%;
-left: 68%;
-overflow: visible;
+.star-8 {
+  position: absolute;
+  top: 55.9%;
+  left: 2.8%;
 }
 
-.star-7 { 
-position: absolute;
-top: 52.4%;
-left: 1.7%;
+.product-box {
+  background-image: url(images/product-box.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+  .product-box__title {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Montserrat";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 94px;
+    padding-bottom: 24px;
+  }
+
+  .product-box__text {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 72px;
+    width: 788px;
+  }
 }
 
-.star-8 { 
-position: absolute;
-top: 55.9%;
-left: 2.8%;
-} 
-
-
-
-.product-box {  
-background-image: url(images/product-box.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-position: relative;
-
-
-.product-box__title {                   
-color: rgba(255, 255, 255, 1);
-font-family: "Montserrat";
-font-size: 64px;
-font-weight: 700;
-line-height: 78px;
-letter-spacing: 0px;
-text-align: left;
-padding-top: 94px;
-padding-bottom: 24px;
+.product-box__content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
 }
 
-.product-box__text { 
-color: rgba(255, 255, 255, 1);
-font-family: "Montserrat";
-font-size: 24px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0px;
-text-align: left;
-padding-bottom: 72px;
-width: 788px;
-}
-}
-
-.product-box__content { 
-display: grid;
-grid-template-columns: repeat(12, 1fr);   
-gap: 32px; 
-}
-
-
-.product-link { 
-display: block;
-width: 378px;
-height: 473px;
-text-decoration: none;
- grid-column: span 4; 
- z-index: 1;
-}
-
-.product-link_big { 
+.product-link {
   display: block;
-  width: 378px;  
-  height: 512px;
+  height: 473px;
   text-decoration: none;
-  grid-column: span 4; 
+  grid-column: span 4;
+  z-index: 1;
 }
 
-.product-link_2row {  
-width: 378px;
-height: 551px;
-display: block;
-text-decoration: none;
-grid-column: span 4; 
-margin-top: -40px
+.product-link:nth-child(2),
+.product-link:nth-child(5) {
+  height: 512px;
 }
 
-.product { 
-border-radius: 30px;
-box-shadow: 0px 12.61px 42.251190185546875px -7.57px rgba(0, 0, 0, 0.13);
-background: rgba(255, 255, 255, 1);   
-width: 378px;
-height: 473px;
-
-
-.product__image {         
-width: 378px;
-height: 314px;
-border-radius: 30px;
+.product-link:nth-child(4),
+.product-link:nth-child(6) {
+  height: 551px;
+  margin-top: -40px;
 }
 
-.product__info {  
+.product {
+  border-radius: 30px;
+  box-shadow: 0px 12.61px 42.251190185546875px -7.57px rgba(0, 0, 0, 0.13);
+  background: rgba(255, 255, 255, 1);
+  height: 100%;
+
+  .product__image {
+    width: 378px;
+    height: 314px;
+    border-radius: 30px;
+  }
+
+  .product__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 32px 32px 36px 32px;
+  }
+
+  .product__text-box {
+    width: 108px;
+    height: 36px;
+    border-radius: 52.58px;
+    background: rgba(247, 247, 247, 1);
+  }
+
+  .product__text {
+    color: rgba(32, 32, 39, 1);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 16px 10px 16px;
+  }
+
+  .product__name {
+    color: rgba(32, 32, 39, 1);
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
+
+.star-9 {
+  position: absolute;
+  top: 4.3%;
+  left: 88.7%;
+}
+
+.star-10 {
+  position: absolute;
+  top: 5.2%;
+  left: 91.7%;
+}
+
+.star-11 {
+  position: absolute;
+  top: 97.5%;
+  left: 86.7%;
+}
+
+.star-12 {
+  position: absolute;
+  top: 96.2%;
+  left: 91.6%;
+}
+
+.game-box {
+  background-image: url(images/game-box.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+  .game-box__title {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Montserrat";
+    font-style: Bold;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 96px;
+    padding-bottom: 72px;
+  }
+
+  .game-box__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+    padding-bottom: 144px;
+  }
+}
+
+.game {
+  border-radius: 30px;
+  box-shadow: 0px 20px 67px -12px rgba(0, 0, 0, 0.13);
+  background: rgba(255, 255, 255, 1);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 16px;
-  padding: 32px 32px 36px 32px;
+  height: 500px;
+
+  .game__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 36px;
+    padding: 48px 48px 203px 48px;
+    width: 600px;
+  }
+  .game__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .game__name {
+    color: rgba(32, 32, 39, 1);
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .game__text {
+    color: rgba(32, 32, 39, 1);
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 447px;
+  }
+
+  .game__button {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Montserrat";
+    font-style: SemiBold;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 141.69%;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 60px;
+    background: rgba(32, 32, 39, 1);
+    width: 247px;
+    height: 66px;
+    width: 247px;
+    height: 66px;
+  }
+
+  .game__image {
+    border-radius: 30px;
+    width: 600px;
+    height: 500px;
+  }
 }
 
-.product__text-box {  
-width: 108px;
-height: 36px;
-border-radius: 52.58px;
-background: rgba(247, 247, 247, 1);
+footer {
+  background: rgba(189, 237, 53, 1);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .footer__text {
+    color: rgba(0, 0, 0, 1);
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
 }
-
-.product__text {  
-color: rgba(32, 32, 39, 1);
-font-family: "Montserrat";
-font-size: 16px;
-font-weight: 500;
-line-height: 110%;
-letter-spacing: 0px;
-text-align: left;
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-padding: 8px 16px 10px 16px;
-}
-
-
-
-.product__name {  
-color: rgba(32, 32, 39, 1);
-font-family: "Montserrat";
-font-size: 32px;
-font-weight: 700;
-line-height: 39px;
-letter-spacing: 0px;
-text-align: left;
-}
-}
-
-
-.product-big {  
-height: 512px;
-}
-
-.product-big_2row { 
- height: 551px;
-}
-
- .star-9 { 
-position: absolute;
-top: 4.3%;
-left: 88.7%;
-}
-
-.star-10 { 
-position: absolute;
-top: 5.2%;
-left: 91.7%;
-}
-
-.star-11 { 
-position: absolute;
-top: 97.5%;
-left: 86.7%;
-}
-
-.star-12 { 
-position: absolute;
-top: 96.2%;
-left: 91.6%;
-} 
-
-.game-box { 
-background-image: url(images/game-box.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-position: relative;
-
-.game-box__title {  
-  color: rgba(255, 255, 255, 1);
-font-family: "Montserrat";
-font-style: Bold;
-font-size: 64px;
-font-weight: 700;
-line-height: 78px;
-letter-spacing: 0px;
-text-align: left;
-padding-top: 96px;
-padding-bottom: 72px;
-}
-
-.game-box__content {    
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-gap: 32px;
-padding-bottom: 144px;
-}
-}
-
-
-
-.game { 
-border-radius: 30px;
-box-shadow: 0px 20px 67px -12px rgba(0, 0, 0, 0.13);
-background: rgba(255, 255, 255, 1);
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-height: 500px;
-
-.game__content {   
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 36px;
-padding: 48px 48px 203px 48px;
-width: 600px;
-}
-.game__info { 
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 24px;
-
-}
-
-.game__name { 
-color: rgba(32, 32, 39, 1);
-font-family: "Montserrat";
-font-size: 48px;
-font-weight: 700;
-line-height: 59px;
-letter-spacing: 0px;
-text-align: left;
-}
-
-.game__text { 
-color: rgba(32, 32, 39, 1);
-font-family: "Montserrat";
-font-size: 24px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0px;
-text-align: left;
-width: 447px;
-}
-
-.game__button { 
-color: rgba(255, 255, 255, 1);
-font-family: "Montserrat";
-font-style: SemiBold;
-font-size: 24px;
-font-weight: 600;
-line-height: 141.69%;
-letter-spacing: 0%;
-text-align: center;
-border-radius: 60px;
-background: rgba(32, 32, 39, 1);
-width: 247px;
-height: 66px;
-width: 247px;
-height: 66px;
-}
-
-.game__image {  
-border-radius: 30px;
-width: 600px;
-height: 500px;
-}
-
-}
-
-footer {  
-background: rgba(189, 237, 53, 1);
-height: 150px;
-display: flex;
-justify-content: center;  
-align-items: center;
-
-.footer__text { 
-color: rgba(0, 0, 0, 1);
-font-family: "Montserrat";
-font-size: 24px;
-font-weight: 600;
-line-height: 29px;
-letter-spacing: 0px;
-text-align: center;
-} 
-} 
-
-
-
-
-/* https://github.com/Rimskyi2108/2-nd-course-hw/commit/cc90d6bf7579f8b892b147eaf91d894e9aab8c93
-Сделал ссылки рабочими, добавил стили. Удалил max-width и белая полоса исчезла. Но появилась другая проблема. 
-в отладчике пишет, что ширина top равно 1440px и ширина html тоже. Хотя блок top должен быть 1200. 
-По какой причине не знаю, но из за этого моя страница стала шире и вместила больше.   
-А именно блоки стали шире и анимированная полоса вместилась лучше, так же звезды сверху и в блоке об играх видно, что больше уместились на странице. 
-Разница наглядно видно в сравнение с макетом. 
-Звезды и линии должно быть видно меньшую часть и в полосе прокрутки текст должен кончаться на "Простая а" а поместилось "Простая арифметика   ...   Кам". 
-С открытым отладчиком  визуально всё нормально становится, но закрываю и такой момент с расширением территории.
-
-Касаемо карточек в блоке "об играх" Я сделал отрицательный marfin-top -40px и получилось. между карточками 1-4 и 3-6 пропал gap 32px. 
-Не совсем опнимаю почему так, но если работает, то я уже счастлив.
-
-Остался вот только вопрос по поводу увеличения вместительности ширины страницы. 
-почему то топ стал 1440 это странно и почему так происходит тоже не понимаю.  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
