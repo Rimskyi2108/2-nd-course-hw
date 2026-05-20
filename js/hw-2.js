@@ -8,13 +8,13 @@
 
 // Задание 2
 
-// let year = 'Год выпуска первого Iphone - 2007';
+// const year = 'Год выпуска первого Iphone - 2007';
 // alert(year);
 
 
 // Задание 3
 
-// let name = 'Создатель языка JavaScript - Брендан Эйх (Brendan Eich)';
+// const name = 'Создатель языка JavaScript - Брендан Эйх (Brendan Eich)';
 // alert(name);
 
 
