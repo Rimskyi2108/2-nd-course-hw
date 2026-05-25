@@ -1,4 +1,4 @@
-// Игра Угадай число
+// Игра 1. Угадай число
 
 function startGuessGame() {
     const randomNumber = Math.floor(Math.random() * 100) + 1;                                       // Генерация числа от 1 до 100
@@ -36,7 +36,7 @@ function startGuessGame() {
 }
 
 
-// Игра простая арифметика
+// Игра 2. Простая арифметика
 
 function startArithmeticGame() {
     let score = 0;                                   // счётчик правильных ответов
@@ -83,4 +83,82 @@ function startArithmeticGame() {
     }
 
     alert(`Игра окончена! \n\n Правильных ответов: ${score} из ${total} \n Процент правильных ответов: ${(score / total * 100)}%`);         // Итог
+}
+
+
+// Игра 3. Переверни текст
+
+function reverseText() {
+    let userText = prompt('Введите текст, который нужно перевернуть:');
+    
+
+    if (userText === null) {
+        alert('Игра окончена');
+    } else if (userText.trim() === '') {
+        alert('Вы не ввели текст! Попробуйте ещё раз.');
+        return;
+    } else {
+        const reversedText = userText.split('').reverse().join(''); 
+        alert(`Оригинальный текст:  ${userText}\n\nПеревёрнутый текст:  ${reversedText}`);
+    }
+}
+
+
+// Игра 4. Камень, ножницы, бумага
+
+
+
+
+// Игра 5. Простая викторина
+
+function startQuiz() {
+    const quiz = [
+        {
+            question: "Какого цвета небо?",
+            options: ["1. Красный", "2. Синий", "3. Зеленый"],
+            correctAnswer: 2 // номер правильного ответа (Синий)
+        },
+        {
+            question: "Сколько дней в неделе?",
+            options: ["1. Шесть", "2 Семь", "3. Восемь"],
+            correctAnswer: 2 // номер правильного ответа (Семь)
+        },
+        {
+            question: "Сколько у человека пальцев на одной руке?",
+            options: ["1. Четыре", "2. Пять", "3. Шесть"],
+            correctAnswer: 2 // номер правильного ответа (Пять)
+        }
+    ];
+
+    let correctCount = 0;
+
+    alert('Добро пожаловать в викторину!\n\nВам будет задано ' + quiz.length + ' вопроса.\n\nДля ответа введите номер варианта (1, 2 или 3).');
+
+    for (let i = 0; i < quiz.length; i++) {
+        const question = quiz[i];
+
+        let questionText = `Вопрос ${i + 1} из ${quiz.length}:\n\n`;
+        questionText += `${question.question}\n\n`;
+        questionText += question.options.join(`\n`);
+        questionText += `\n\nВведите номер ответа (1, 2 или 3):`;
+
+        let userAnswer = prompt(questionText);
+
+        if (userAnswer === null) {
+            alert('Викторина прервана! До свидания.');
+            return;
+        }
+
+        userAnswer = Number(userAnswer);
+
+        if (userAnswer === question.correctAnswer) {
+            alert('Правильно!');
+            correctCount++;
+        } else {
+            let correctText = question.options[question.correctAnswer - 1];
+            alert(`Неправильно!\n\nПравильный ответ:  ${correctText}`);
+        }
+    }
+
+    alert(`Викторина окончена!\n\nПравильных ответов: ${correctCount} из ${quiz.length}\nПроцент: ${((correctCount / quiz.length * 100)).toFixed(1)}%`);
 }
